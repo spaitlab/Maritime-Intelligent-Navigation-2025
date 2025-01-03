@@ -1,6 +1,6 @@
 # Maritime-Intelligent-Navigation-2025
 Open source data of maritime intelligent navigation platform
-# 第十三届全国海洋航行器设计与制作大赛
+# 第十四届全国海洋航行器设计与制作大赛
 ## C4智能导航赛道（Maritime-Intelligent-Navigation）
 
 ![](./docs/image/zhinengdaohang.jpg)
