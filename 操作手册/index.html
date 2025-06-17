@@ -1,0 +1,1664 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../%E8%B5%9B%E4%BA%8B%E8%B5%84%E6%BA%90/">
+      
+      
+        <link rel="next" href="../%E8%AF%84%E5%88%86%E7%BB%86%E5%88%99/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
+    
+    
+      
+        <title>操作手册 - Maritime Intelligent Navigation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/custom.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Maritime Intelligent Navigation" class="md-header__button md-logo" aria-label="Maritime Intelligent Navigation" data-md-component="logo">
+      
+  <img src="../imagsea/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Maritime Intelligent Navigation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              操作手册
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Maritime Intelligent Navigation" class="md-nav__button md-logo" aria-label="Maritime Intelligent Navigation" data-md-component="logo">
+      
+  <img src="../imagsea/logo.png" alt="logo">
+
+    </a>
+    Maritime Intelligent Navigation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%B5%9B%E4%BA%8B%E7%AE%80%E4%BB%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    赛事简介
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%B5%9B%E4%BA%8B%E8%B5%84%E6%BA%90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    赛事资源
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    操作手册
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    操作手册
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      C4智能导航赛道操作手册
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 平台简介
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1 平台简介">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1平台描述
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2平台框架
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 无人船硬件介绍
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 无人船硬件介绍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 无人船船体参数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 无人船使用说明
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 无人船存放与平时维护须知
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 环境搭建
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 环境搭建">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 基于Unity的虚拟三维仿真引擎
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 基于Unity的虚拟三维仿真引擎">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.1简介
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.2 搭建步骤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-simulink" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 基于Simulink的无人船运动模型
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 基于Simulink的无人船运动模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.1 简介
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.2 搭建步骤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33ros" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3基于ROS的无人船航控系统
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3基于ROS的无人船航控系统">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.1 简介
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.2 搭建步骤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 使用指南
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4 使用指南">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 添加场景和智能体
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 选择初始化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 实时状态界面
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 实时状态界面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.1 实时状态展示
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.2 当前航线显示
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.3 巡航设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#434" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.4 环境设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#435" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.5 船舶模型设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#436" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.6 坐标转换设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#437" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.7 控制模式切换
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 航线编辑
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 航线编辑">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.1 航线列表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.2 航线详情
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 视角切换
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 算法训练
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.7 算法训练">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#471" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7.1 算法环境准备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#472" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7.2 算法训练
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#473" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7.3 注意事项
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.8 数据记录
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#49" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.9 数据分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10 系统设置
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.10 系统设置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4101" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10.1 网络设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4102" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10.2 传感器设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4103" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10.3 智能体设置
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%AF%84%E5%88%86%E7%BB%86%E5%88%99/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    评分细则
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#c4" class="md-nav__link">
+    <span class="md-ellipsis">
+      C4智能导航赛道操作手册
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      1 平台简介
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1 平台简介">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.1平台描述
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.2平台框架
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      2 无人船硬件介绍
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2 无人船硬件介绍">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 无人船船体参数
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 无人船使用说明
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 无人船存放与平时维护须知
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3 环境搭建
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3 环境搭建">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-unity" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 基于Unity的虚拟三维仿真引擎
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.1 基于Unity的虚拟三维仿真引擎">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#311" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.1简介
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#312" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1.2 搭建步骤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-simulink" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 基于Simulink的无人船运动模型
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.2 基于Simulink的无人船运动模型">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#321" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.1 简介
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#322" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2.2 搭建步骤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33ros" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3基于ROS的无人船航控系统
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.3基于ROS的无人船航控系统">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#331" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.1 简介
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#332" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3.2 搭建步骤
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4 使用指南
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4 使用指南">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 添加场景和智能体
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 选择初始化
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3 实时状态界面
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.3 实时状态界面">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#431" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.1 实时状态展示
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#432" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.2 当前航线显示
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#433" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.3 巡航设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#434" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.4 环境设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#435" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.5 船舶模型设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#436" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.6 坐标转换设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#437" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.3.7 控制模式切换
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4 航线编辑
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.4 航线编辑">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#441" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.1 航线列表
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#442" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.4.2 航线详情
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.5 视角切换
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#47" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7 算法训练
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.7 算法训练">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#471" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7.1 算法环境准备
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#472" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7.2 算法训练
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#473" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.7.3 注意事项
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#48" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.8 数据记录
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#49" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.9 数据分析
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#410" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10 系统设置
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4.10 系统设置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#4101" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10.1 网络设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4102" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10.2 传感器设置
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4103" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.10.3 智能体设置
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">全国海洋航行器设计与制作大赛<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="c4">C4智能导航赛道操作手册<a class="headerlink" href="#c4" title="Permanent link">&para;</a></h2>
+<h2 id="1">1 平台简介<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<h3 id="11">1.1平台描述<a class="headerlink" href="#11" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SpaceR-USV 是一款先进的智能无人船虚拟仿真训练平台，该平台由基于Unity的虚拟三维仿真引擎、基于Simulink的无人船运动模型和基于ROS的无人船航控系统三部分组成。平台基于Unity引擎进行航行场景设计和传感器数据获取，提供高逼真的视觉和物理仿真，为无人船的导航训练提供有效的模拟平台；基于Simulink搭建无人船运动数学模型，为避障算法提供符合物理规律的运动学和动力学约束，考虑风、浪、流三种环境因素的影响，在运动数学模型中加入对应干扰力的计算，使算法仿真更贴合实际；基于ROS的无人船航控系统旨在实现无人船的自主导航、任务执行和操作控制。该系统利用ROS提供的一系列工具和库，实现无人船的感知、决策和控制功能，使其能够在复杂的环境中自主航行和执行任务。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若初次使用本赛道、使用非本地部署ros且想要完整使用一次平台，请先按照本文3.1.2、3.2.2、4.7.1、4.7.2、4.7.3顺序观看平台具体使用教程，其余部分章节为补充内容。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;本次平台的使用过程中需要注意<strong>先启动unity，连接上ros后再启动算法</strong>。</p>
+<p><img alt="111" src="..\assets\component_1.jpg" /></p>
+<h3 id="12">1.2平台框架<a class="headerlink" href="#12" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;智能无人船虚拟仿真训练平台框架主要涉及六个模块：</p>
+<ul>
+<li>&nbsp;&nbsp; &#9679; 环境交互显示模块：提供水域地形、环境条件和船舶模型号等信息。</li>
+<li>&nbsp;&nbsp; &#9679; 无人艇模型：包括三维几何和物理运动模型，用于模拟无人艇的行为。</li>
+<li>&nbsp;&nbsp; &#9679; 环境感知模块：通过激光雷达、视觉相机等传感器收集环境数据。</li>
+<li>&nbsp;&nbsp; &#9679; 运动控制模：块负责无人艇的电机和舵机控制。</li>
+<li>&nbsp;&nbsp; &#9679; 避障算法模块：使用强化学习（如PPO、TD3）和监督学习进行路径规划和障碍物规避，提升无人艇的自主导航能力。</li>
+</ul>
+<p><img alt="framework" src="..\image_file\19ae0811500e669218c145ac1f0f008.png" /></p>
+<h2 id="2">2 无人船硬件介绍<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<h3 id="21">2.1 无人船船体参数<a class="headerlink" href="#21" title="Permanent link">&para;</a></h3>
+<p><img alt="USV130" src="../assets/ship.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">参数名称</th>
+<th style="text-align: center;">参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">船长</td>
+<td style="text-align: center;">1.3 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">型宽</td>
+<td style="text-align: center;">0.64 m</td>
+</tr>
+<tr>
+<td style="text-align: center;">吃水深度</td>
+<td style="text-align: center;">18 cm</td>
+</tr>
+<tr>
+<td style="text-align: center;">最高航速</td>
+<td style="text-align: center;">1.8 m/s（使用船自带遥控的极限速度是2.4 m/s）</td>
+</tr>
+<tr>
+<td style="text-align: center;">船体材料</td>
+<td style="text-align: center;">玻璃纤维增强材料</td>
+</tr>
+<tr>
+<td style="text-align: center;">动力系统</td>
+<td style="text-align: center;">2x 喷泵推进器</td>
+</tr>
+<tr>
+<td style="text-align: center;">定向巡航速度</td>
+<td style="text-align: center;">定速巡航速度在1-1.5 m/s时，效果较好，低于1 m/s时，电机推力会降的比较低。</td>
+</tr>
+<tr>
+<td style="text-align: center;">定速巡航速度</td>
+<td style="text-align: center;">1.4 m/s</td>
+</tr>
+<tr>
+<td style="text-align: center;">续航时间</td>
+<td style="text-align: center;">满功率大约2 H，限定功率测试一般可达到 4-5H</td>
+</tr>
+<tr>
+<td style="text-align: center;">通信距离</td>
+<td style="text-align: center;">大约2 km</td>
+</tr>
+<tr>
+<td style="text-align: center;">转弯半径</td>
+<td style="text-align: center;">油门100%，方向50%时，转向半径5m左右</td>
+</tr>
+<tr>
+<td style="text-align: center;">最大转向角速度</td>
+<td style="text-align: center;">45 °/s</td>
+</tr>
+</tbody>
+</table>
+<h3 id="22">2.2 无人船使用说明<a class="headerlink" href="#22" title="Permanent link">&para;</a></h3>
+<ul>
+<li>无人船开机按钮在船体后方，按下按钮即可启动，启动后不要立即去动拨杆操控无人船，等待30s 后，可使用遥控器进行遥控。</li>
+<li>使用手柄进行无人船操控时，需要将无人船遥控器左上角的拨杆向下拨动，等待10s，系统会切换至手柄模式</li>
+<li>遥控器操控：需将遥控器左上方的拨片拨到下面， 等待10s，左右拨杆同时向前推表示操控无人船直线向前行驶，左侧拨杆推的幅度比右侧拨杆小，可以使无人船向右转，右侧拨杆推的幅度比左侧拨杆小，可以使无人船向左转，两个拨杆同时向后推可以使无人船倒车</li>
+<li>手柄连接：无线手柄通过蓝牙与电脑连接即可，有限手柄需长按手柄中的圆形按钮，待【实时状态】栏中显示遥控器已连接即可。手柄链接后，需将无人船遥控器左上方的拨片拨到上面， 等待10s，即可开始操控，左边拨杆可控制前进和后退，右边拨杆可以控制方向。</li>
+<li>使用无人船遥控器进行无人船的操纵时，尽量不要把拨杆推理推的太满，可能会导致无人船自身控制程序占用进程，出现船体右舵转圈的现象，解决方法是关闭电源重启</li>
+</ul>
+<h3 id="23">2.3 无人船存放与平时维护须知<a class="headerlink" href="#23" title="Permanent link">&para;</a></h3>
+<blockquote>
+<ol>
+<li>存放条件：无人船保养尽量在<strong>室内存放</strong>，后舱盖打开，排出舱内水汽</li>
+<li>电量检查：1-2个月不使用的情况下，每个月要开机检查一下电压，看是否亏电，若亏电就补充一点，不可充太满。<strong>存放期间31-32V</strong>之间都可以，尽量<strong>不要低于30V</strong>。</li>
+<li>满电电压：<strong>满电33V ，低电压28V</strong>，做实验之前要提前观察电量</li>
+<li>其他：冬季实验，户外温度低于-10℃时，充电要回到屋子里恢复到室温再充电。（非低温电池）</li>
+</ol>
+</blockquote>
+<h2 id="3">3 环境搭建<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="31-unity">3.1 基于Unity的虚拟三维仿真引擎<a class="headerlink" href="#31-unity" title="Permanent link">&para;</a></h3>
+<h4 id="311">3.1.1简介<a class="headerlink" href="#311" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现有的无人船算法仿真训练平台一定程度上简化了无人船模型与航行环境影响因素，仿真所采用的传感器模型也与实际情况有所出入，同时缺乏算法在不同场景条件下的测试评估以及与实船对接交互的端到端验证方案。针对无人船算法仿真训练平台存在的上述问题，我们基于Unity引擎开展仿真训练平台的开发精细化的智能无人船虚拟仿真场景，实现航行环境的构建。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;航行环境模块提供多种水域环境、地形地貌、水面、障碍物以及包括重力、浮力、航行阻力等多种力学因素，以供训练与测试；同时提供便捷的人机交互界面，供用户对虚拟场景（如岛屿场景、湖泊场景、校园场景等）、环境条件（如风浪、雨雪、雷电等）、船舶类型进行不同选择。此外，我们还提供场景的定制服务，根据用户实际需求为用户搭建场景，提供个性化服务。</p>
+<p><img alt="navigate" src="../image_file/18navigation.gif" /></p>
+<h4 id="312">3.1.2 搭建步骤<a class="headerlink" href="#312" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&emsp;监控平台基于Unity进行开发，采用免安装的方式部署在Windows电脑上，进入解压缩的USCP_APP3文件夹中双击打开USCP.exe程序，在登录界面输入账号密码，注意需要在网络环境下打开该程序，否则无法登陆软件。</p>
+<p>&emsp;账号：Bit01；密码：123456，点击登录，进入软件：  </p>
+<p><img alt="uscp1" src="..\image_file\uscp1.png" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>&emsp;进入后直接点击确定，对软件进行相关参数配置  </p>
+<p><img alt="uscp2" src="..\image_file\uscp2.png" /></p>
+<p>&emsp;模型位置选择“本地”，模型类型选择“Matlab”，模型IP为上个步骤本机的IPV4地址，接收与发送端口号分别为10804与10805，点击保存。</p>
+<p><img alt="uscp3" src="..\image_file\uscp3.png" /></p>
+<p>&emsp;点击传感器设置，点击虚拟激光雷达右侧开关按钮，变为绿色后在该行白框中输入“5”，点击保存。</p>
+<p><img alt="uscp4" src="..\image_file\uscp4.png" /></p>
+<p>&emsp;点击“关于”，并单击“复制”按钮复制设备唯一标识备用（每台设备的标识码都是唯一的，只有在该设备中使用其对应唯一标识码才能够运行算法），复制后关闭软件。</p>
+<p><img alt="uscp5" src="..\image_file\uscp5.png" /></p>
+<h3 id="32-simulink">3.2 基于Simulink的无人船运动模型<a class="headerlink" href="#32-simulink" title="Permanent link">&para;</a></h3>
+<h4 id="321">3.2.1 简介<a class="headerlink" href="#321" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基于Simulink搭建无人艇运动数学模型，为避障算法提供符合物理规律的运动学和动力学约束；考虑风、浪、流三种环境因素的影响，在运动数学模型中加入对应干扰力的解算，使算法仿真更贴合实际。</p>
+<h4 id="322">3.2.2 搭建步骤<a class="headerlink" href="#322" title="Permanent link">&para;</a></h4>
+<p>（1）解压USV130demo文件夹，使用matlab2023b打开该文件夹，进入simulation子文件夹并双击打开USV130Demo.slx  </p>
+<p><img alt="matlab1" src="..\image_file\matlab1.png" />
+（2）在USV130Demo框架下右键选择查看封装  </p>
+<p><img alt="matlab2" src="..\image_file\matlab2.png" />
+（3）进入封装框图后根据自己电脑中的地址“…\USV130demo\icon”来进行替换，由此更新框图的图片显示：</p>
+<p><img alt="matlab3" src="..\image_file\matlab3.png" />
+（4）其他部分依次进行该操作，在结束后双击打开TCP Link模块  </p>
+<p><img alt="matlab4" src="..\image_file\matlab4.png" />
+（5）接下来更改matlab模型与unity连接的IP地址，为本机连接WIFI对应的IPV4地址，IPV4通过键盘依次按下WIN与R按键，在弹窗中输入cmd并回车，进入终端，并输入ipconfig回车，查看本机对应IPV4地址  </p>
+<p><img alt="tcp2" src="..\image_file\tcp2.png" />
+(6) 依次双击下图中的红框，在模块参数弹窗中将本机的IPV4地址复制粘贴到“Server IP address”中，TCP Link中的左半部分为数据接收端，端口号为<strong>10804</strong>，右半部分为发送端，端口号为<strong>10805</strong>  </p>
+<p><img alt="tcp3" src="..\image_file\tcp3.png" /></p>
+<p><img alt="tcp4" src="..\image_file\tcp4.png" /></p>
+<p><img alt="tcp5" src="..\image_file\tcp5.png" /></p>
+<p>（7)更改完毕后点击运行按钮，开始仿真，运行时下方会出现计时栏，若计时栏正常计数则代表仿真模型正常运行  </p>
+<p><img alt="matlabrun1" src="..\image_file\matlabrun1.png" /></p>
+<p><img alt="matlabrun2" src="..\image_file\matlabrun2.png" /></p>
+<h3 id="33ros">3.3基于ROS的无人船航控系统<a class="headerlink" href="#33ros" title="Permanent link">&para;</a></h3>
+<h4 id="331">3.3.1 简介<a class="headerlink" href="#331" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基于ROS的无人船航空系统旨在实现无人船的自主导航、任务执行和操作控制。该系统利用ROS提供的一系列工具和库，实现无人船的感知、决策和控制功能，使其能够在复杂的环境中自主航行和执行任务。</p>
+<h4 id="332">3.3.2 搭建步骤<a class="headerlink" href="#332" title="Permanent link">&para;</a></h4>
+<p>(1) Docker安装</p>
+<ul>
+<li><a href="http://https://www.runoob.com/docker/ubuntu-docker-install.html" title="Ubuntu Docker安装">Ubuntu Docker安装</a></li>
+<li><a href="http://https://www.runoob.com/docker/windows-docker-install.html" title="Windows Docker安装">Windows Docker安装</a></li>
+<li><a href="http://https://www.runoob.com/docker/macos-docker-install.html" title="MacOS Docker安装">MacOS Docker安装</a></li>
+</ul>
+<p>(2) 加载docker镜像</p>
+<pre><code>docker load -i ros_image.tar
+</code></pre>
+<p>(3) 启动容器</p>
+<pre><code>docker run --network=host --name=ros1-usv -v /usr/local/project:/usr/local/project -itd f99 /bin/bash
+</code></pre>
+<p>(4) 部署工程到docker的共享目录</p>
+<pre><code>/usr/local/project
+</code></pre>
+<p>(5) 连接docker容器
+//查看容器ID和状态：</p>
+<pre><code> docker ps -a
+</code></pre>
+<p>1check_ID
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  通过Docker ps -a 命令查看容器的ID,名字和状态，若容器显示Exited(0)，则表示容器已经停止，此时需要运行停止的Docker容器，进行重新启动。
+//运行Docker容器：</p>
+<pre><code>docker start {XXX} 
+</code></pre>
+<p><strong>注：这里的{XXX}指的是容器ID的前三位数字，下面同理</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;运行容器既可以使用docker start 容器ID前三位数字，也可以使用 docker start 容器name</p>
+<p><img alt="2enter_container" src="..\image_file\2enter_container.png" />
+//进入容器：</p>
+<pre><code>Docker execute -it {XXX} /bin/bash
+</code></pre>
+<p>此处的{XXX}依然指的是容器ID的前三位数字 </p>
+<p><img alt="3exec_docker" src="..\image_file\3exec_docker.jpg" />
+(6) 启动ROS控制端</p>
+<p>//进入工程目录 </p>
+<pre><code>cd /usr/local/project/usv_main_ws/             
+</code></pre>
+<pre><code> source devel/setup.bash
+</code></pre>
+<p>//启动控制端</p>
+<pre><code> roslaunch usv_main_node usv_main.launch
+</code></pre>
+<p><img alt="4ros_launch" src="..\image_file\4ros_launch.png" /></p>
+<p>（7) 启动成功</p>
+<p><img alt="5ros_successful" src="..\image_file\5ros_successful.png" /></p>
+<h2 id="4">4 使用指南<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;无人系统仿真平台监控软件（简称：监控软件）是一款功能强大的虚实仿真工具，集动态场景加载与展示、航线编辑、路径规划、避碰算法扩展、在线调参以及强化学习训练等多项功能于一身。它旨在为无人系统仿真和算法试验提供更为便捷、直观的操作体验。通过集成Unity仿真环境和ROS通讯网络等基础架构，该软件极大地简化了用户在算法验证和强化学习训练过程中的环境搭建步骤，使用户能够专注于算法本身的研究与优化，从而显著提升工作和学习效率。</p>
+<h3 id="41">4.1 添加场景和智能体<a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件支持动态添加场景和智能体，用户可使用该软件默认集成的智能体，也可以手动进行添加。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户在Unity中制作好场景或智能体，将场景或智能体打包成AB包后，打开监控软件安装目录，找到<strong>USCP_Data/StreamingAssets</strong>目录，将打包好的AB包放入该目录，使用文本编辑器打开<strong>ab_conf.json</strong>文件，添加该AB包的描述信息；场景的描述信息包括场景名称、AB包名称以及该场景适用的智能体类型，智能体的描述信息包括智能体名称、AB包名称、AB包内的资源名称以及智能体类型。完成添加场景或智能体后，启动监控软件，即可在首页显示出已添加的场景和智能体。</p>
+<p><img alt="15AB_package" src="..\image_file\15AB_package.png" /></p>
+<h3 id="42">4.2 选择初始化<a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;打开软件安装目录，双击USCP.exe文件即可运行该软件。在该软件初始化界面上，可以选择所需的场景、智能体以及运行模式；该软件运行模式包括虚拟仿真和数字孪生两种，在虚拟仿真模式下，系统里的场景、智能体以及智能体的控制模型都是虚拟的，用户可以在非真实世界中完成对算法的调试或训练；数字孪生模式下，系统里的场景和智能体都是以数字孪生的模式展示真实世界；在数字孪生模式下，该软件可控制真实的智能体运动、规划航线、定速定向巡航等，同时真实智能体的运动状态和环境也可以在该软件中展示。</p>
+<p>选择好场景、智能体以及运行模式后，点击确定即可进入系统主界面；点击取消会退出本软件。</p>
+<p><img alt="select_sene" src="..\assets\select_sene.jpg" /></p>
+<h3 id="43">4.3 实时状态界面<a class="headerlink" href="#43" title="Permanent link">&para;</a></h3>
+<h4 id="431">4.3.1 实时状态展示<a class="headerlink" href="#431" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击实时状态按钮，即可进入实时状态界面。在系统界面右边会显示实时状态面板，该面板上实时显示当前智能体的姿态、运行状态、环境信息以及基础状态等。其中，基础状态包括船舶模型是否连接、遥控器是否连接以及当前视角。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当船舶模型显示未连接时，需要先启动船舶模型程序；当遥控器显示未连接时，需要先将遥控器插入本计算机，并拨动几下遥控器摇杆，如果还是显示未连接，需要长按5秒遥控器模式切换按钮，将遥控器切换到正确的模式，同时拨动遥控器摇杆，如此反复，直到遥控器状态显示已连接。</p>
+<p><img alt="17status_disply" src="..\image_file\17status_disply.png" /></p>
+<h4 id="432">4.3.2 当前航线显示<a class="headerlink" href="#432" title="Permanent link">&para;</a></h4>
+<p>通过连接手柄，可以在虚拟仿真平台中对无人船进行操控，平台会实时记录无人船的运动轨迹，并可视化到界面上。</p>
+<p><img alt="image-20240919103210124" src="..\assets\image-20240919103210124.png" />   </p>
+<h4 id="433">4.3.3 巡航设置<a class="headerlink" href="#433" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件支持定速定向巡航功能设置，在实时状态界面，点击状态面板下方的第三个圆按钮，即可切换到巡航设置面板。在巡航设置面板，点击加、减按钮或者直接输入想要设定的值，即可完成定速定向巡航的设置。定速定向巡航功能都支持开启和关闭，点击对应按钮即可完成设置。</p>
+<p><img alt="image-20240612105549684" src="..\image_file\navigation_seting.png" /></p>
+<h4 id="434">4.3.4 环境设置<a class="headerlink" href="#434" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件支持设置水环境插件的风速和浪速，风速和浪速值设置较大时，水面将变得波涛汹涌，风速和浪速值设置较小时，水面将变得平静，风速和浪速值都设置为0时，水面将不产生任何波纹，光滑如镜。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过拖动风速和浪速的滑块，实现对风速和浪速的设置，拖动过程中可以实时查看当前风速和浪速的水面效果。当设置好风速和浪速后，点击保存按钮，即可保存设置。</p>
+<p><img alt="image-20240612160816431" src="..\image_file\environment_setting.png" /></p>
+<h4 id="435">4.3.5 船舶模型设置<a class="headerlink" href="#435" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过船舶设置可以修改船舶的型长、型宽、片体宽、质量、纵向重心、吃水深度、阻力系数、密度、水动力导数等参数,从而可以根据需求配置不同的船舶模型</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">船舶参数</th>
+<th style="text-align: center;">参数解释</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">型长</td>
+<td style="text-align: center;">船舶的最大长度，通常从船首的最前端到船尾的最后端</td>
+</tr>
+<tr>
+<td style="text-align: center;">型宽</td>
+<td style="text-align: center;">船舶的最大宽度，通常是指船体在最宽处的距离</td>
+</tr>
+<tr>
+<td style="text-align: center;">片体宽</td>
+<td style="text-align: center;">船舶在设计水线处的宽度，与型宽不同，它是在水线面上的投影宽度。</td>
+</tr>
+<tr>
+<td style="text-align: center;">质量</td>
+<td style="text-align: center;">船舶本身的重量</td>
+</tr>
+<tr>
+<td style="text-align: center;">纵向重心</td>
+<td style="text-align: center;">指船舶总重量（包括结构、设备、货物、燃料等）在船舶纵向（即从船首到船尾）方向上的重心位置</td>
+</tr>
+<tr>
+<td style="text-align: center;">吃水深度</td>
+<td style="text-align: center;">船舶底部与水面的垂直距离，影响船舶的载重能力和可通过的水域</td>
+</tr>
+<tr>
+<td style="text-align: center;">阻力系数</td>
+<td style="text-align: center;">描述流体阻力与流体动力学参数（如速度、密度等）之间关系的系数，用于计算船舶在水中航行时所受到的阻   力</td>
+</tr>
+<tr>
+<td style="text-align: center;">密度</td>
+<td style="text-align: center;">水域环境的密度</td>
+</tr>
+<tr>
+<td style="text-align: center;">水动力导数</td>
+<td style="text-align: center;">描述船舶运动方程中各种力和力矩与船舶运动状态参数（如速度、加速度、舵角等）之间关系的参数</td>
+</tr>
+</tbody>
+</table>
+<h4 id="436">4.3.6 坐标转换设置<a class="headerlink" href="#436" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件坐标转换功能用于Unity坐标和真实世界GPS坐标之间的转换，以实现数字孪生展示的目的。在坐标转换功能里，可以选一个点将Unity坐标和真实世界的GPS坐标进行标定，从而找出两种坐标之间的对应关系，进一步实现坐标转换的功能。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在标定时，选择显示采样点标记选择框，当已进行过标定时，界面上将在已标定的位置立一根杆子，作为标定点；当是第一次进行标定时，会在当前屏幕中心立一根杆子。此时，可以使用键盘上、下、左、右键移动杆子，将杆子移动到想要标定的点上，同时，GPS采样人员行走到真实世界的标定位置，采集当前位置的GPS坐标，将GPS坐标输入到界面坐标转换面板中，并填写真实世界与Unity场景的缩放比例，点击保存按钮，即可完成坐标标定。</p>
+<div style="text-align: center;">
+  <img src="../image_file/image-20240612162227438.png" alt="描述" style="display: block; margin: 0 auto;">
+</div>
+<p><img alt="image-20240612162227438" src="..\image_file\transformer.png" /></p>
+<h4 id="437">4.3.7 控制模式切换<a class="headerlink" href="#437" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;智能体在行驶时，可以在待机、遥控、自动三种控制模式之间转换，监控软件支持通过发送指令给智能体，从而改变智能体行驶时的控制模式。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当智能体处于待机模式时，点击遥控按钮，可向智能体发送遥控的指令，从而将智能体的控制模式改为遥控，此时，可以通过手柄按键遥控船只航行。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击待机按钮时，系统油门和舵位将会处于0位，且不会响应任何遥控动作，系统处于待机状态。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击自动按钮时，系统将根据预设的航线和巡航速度进行完全自动行驶，如果没有预设航线或没有预设巡航速度，油门会处于0位。</p>
+<p><img alt="image-20240612134244559" src="../image_file/monitor.png" /></p>
+<h3 id="44">4.4 航线编辑<a class="headerlink" href="#44" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;航线编辑界面功能是监控软件中的一个重要模块，主要功能包括：航线添加和删除、航线编辑、导航点和障碍物的添加和删除、导航点和障碍物的属性设置、航线上传等。</p>
+<p><img alt="image-20240612135654353" src="..\image_file\image-20240612135654353.png" /></p>
+<h4 id="441">4.4.1 航线列表<a class="headerlink" href="#441" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;航线界面拥有航线操作面板，通过面板可以完成展示航线列表、添加、删除航线的功能，在航线操作面板，点击添加按钮可以弹出添加航线对话框，可以设置航线名称、航线描述，点击确定即可将航线保存到系统中，添加成功后，航线列表中将显示刚添加的航线。在航线列表中，点击删除按钮，即可删除当前航线，点击上传按钮，可以将航线上传到智能航控系统中，为自主智能航行提供路径依据。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当航控系统已存在上传的航线时，航线列表中将以箭头的形式指示当前航控系统中已存在的航线，在列表中点击航线，可进入航线详情页面。</p>
+<p><img alt="image-20240612140839892" src="..\image_file\navigate_edit.png" /></p>
+<h4 id="442">4.4.2 航线详情<a class="headerlink" href="#442" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在航线详情页面，以列表的形式展示当前航线存在的导航点和障碍物。当系统处于俯视视角时，按下Ctrl键同时鼠标左键点击屏幕，可在鼠标点击处添加一个导航点；按下Shift键同时鼠标左键点击屏幕，可在鼠标点击处添加一个障碍物。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为方便观察导航点和障碍物，导航点和障碍物都支持显示与隐藏操作。点击导航点或障碍物前的小眼睛，可以隐藏导航点或障碍物，当导航点或障碍物处于隐藏状态时，再次点击小眼睛，可以显示导航点或障碍物。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击导航点或障碍物后面的删除按钮，可以删除对应的导航点或障碍物。当点击导航点或障碍物前面的选择框时，可以选择当前导航点或障碍物，此时，可以通过键盘上、下、左、右键调整导航点或障碍物的位置。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击导航点后面的编辑按钮，可以弹出导航点编辑对话框，可以修改导航点名称以及自动模式下行驶到该导航点的巡航速度，点击确定按钮，即可保存设置；点击障碍物后面的编辑按钮，可以弹出障碍物编辑对话框，可以修改障碍物名称以及障碍物的大小，点击确定按钮，即可保存设置。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在航线详情面板上，点击回退按钮，可以返回到航线列表面板。</p>
+<p><img alt="image-20240612142125050" src="..\image_file\navigate_1.png" /></p>
+<h3 id="45">4.5 视角切换<a class="headerlink" href="#45" title="Permanent link">&para;</a></h3>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件拥有第一视角、第三视角、俯视视角和自由视角4种，可以通过键盘V、B、N键实现4种视角的切换。</p>
+<p>-当系统处于第一视角之外的其他视角时，按键盘V键，可以切换到第一视角，再次按V键可以切换到自由视角。</p>
+<p>-当系统处于第三视角之外的其他视角时，按键盘B键，可以切换到第三视角，再次按B键可以切换到自由视角。</p>
+<p>-当系统处于俯视视角之外的其他视角时，按键盘N键，可以切换到俯视视角，再次按N键可以切换到俯视视角。添加导航点或者障碍物等操作只能处于俯视视角下进行。</p>
+<p><img alt="image-20240612145638042" src="..\image_file\image-20240612145638042.png" /></p>
+<h3 id="47">4.7 算法训练<a class="headerlink" href="#47" title="Permanent link">&para;</a></h3>
+<h4 id="471">4.7.1 算法环境准备<a class="headerlink" href="#471" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进入解压缩文件usvlib4ros_origin，进入./usvlib4ros/dqn，在该文件夹中需要在dqn_env.py、dqn_main.py、dqn_ros_service.py中更改设备的唯一标识码，将自己设备中的唯一标识码在对应位置进行替换并保存。</p>
+<p><img alt="algorithm1" src="..\image_file\algorithm1.png" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;将dqn_env.py、dqn_main.py代码中的sys地址进行更改，改为本机的usvlib4ros_origin文件夹的绝对地址，并使用双反斜杠  </p>
+<p><img alt="algorithm2" src="..\image_file\algorithm2.png" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接下来进行环境准备，安装anaconda并创建虚拟环境，本项目需要在pytorch框架下运行，在进入环境后cd进入requirements.txt文件所在地址，输入命令pip install -r requirements.txt，建议pytorch在官网上复制安装代码进行安装，文件中的torch作为版本参考，其余安装包根据自己算法需求自行安装，本案例使用python版本为3.10.16。</p>
+<p><img alt="algorithm3" src="..\image_file\algorithm3.png" /></p>
+<h4 id="472">4.7.2 算法训练<a class="headerlink" href="#472" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在上述工作准备完毕后，启动matlab仿真，打开虚拟仿真软件，选择任一场景，具身智能体选择usv100，运行模式选择算法训练，点击确定进入环境。</p>
+<p><img alt="train1" src="..\image_file\train1.png" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进入场景后，键盘的V、B、N键为视角切换按键，</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;点击N键切换至俯视视角，并点击训练区域右侧“+”，创建训练区域，自定义区域名称与描述后点击“确认”进入环境，创建成功后点击右侧环境，进入环境设置界面，自行选择环境大小，智能体、目标点与障碍物相关设置，若选择目标点位于固定位置，按住CTRL键并使用鼠标左键单击选择位置，若选择手动设置障碍物，按住SHIFT键并使用鼠标左键单击选择位置。</p>
+<p><img alt="train2" src="..\image_file\train2.png" /></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环境设置成功后，打开dqn_main.py，运行该代码，等待控制台输出“wait train button trigger ...”后单击监控平台中右侧的“开始训练”按钮，开始算法训练。</p>
+<p><img alt="train3" src="..\image_file\train3.png" /></p>
+<p><img alt="train4" src="..\image_file\train4.png" /></p>
+<h4 id="473">4.7.3 注意事项<a class="headerlink" href="#473" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进行算法研究时只需要对dqn_env.py、dqn_main.py中的代码进行更改，其余代码文件中除了deviceId不要进行更改，</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当前的代码文件使用dqn强化学习算法，使用虚拟激光雷达(180个数据点)以及智能体(USV)与目标点的距离、方向夹角与障碍物之间的距离、方向夹角一共184维数据作为输入，推理输出为五个方向角的舵量输出即动作空间数据为5维，虚拟激光雷达以USV为圆心，依次等角度扫出180个方向点，</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在main函数中可对算法进行改进或替换，在env代码中可对奖励函数以及数据等进行订阅，可通过rosbridge订阅的话题可在赛事资源中的赛事操作手册补充文件中查询。</p>
+<p>按住shift点击区域内可以新增一个障碍物，若目标点切换至固定位置，则按住ctrl键点击区域可设置目标点的位置。用户可根据自身算法的需求，安排智能体、目标点和障碍物的未知与生成情况。</p>
+<p>算法开发部分只需要在本地完成，代码与平台的交互通过ros进行，ros环境下安装rosbridge服务，非rou即本地环境下安装roslibpy</p>
+<pre><code>pip install roslibpy -i https://pypi.tuna.tsinghua.edu.cn/simple
+</code></pre>
+<p>算法中连接的端口即为ros服务端的端口，即可完成算法与仿真平台的连接和通信</p>
+<pre><code>USVRosbridgeClient.Host = &quot;121.41.106.238&quot;
+</code></pre>
+<p>仿真平台在开始运行后，将虚拟传感器信号当作心跳信号，在运行算法后，算法端检测到传感器数据读入（通过ros订阅服务），点击平台的【开始训练】按键，即可开始相应算法的训练和控制过程</p>
+<p>算法的验证部分通过虚拟仿真来实现，在航线编辑中，可以用相同的方式编辑航线和路径上的障碍物，点击下发航线后即可运行代码来进行算法验证</p>
+<p><img alt="" src="..\assets\algo.png" /></p>
+<h3 id="48">4.8 数据记录<a class="headerlink" href="#48" title="Permanent link">&para;</a></h3>
+<p>数据记录功能是通过抓取无人船航行的速度、油门百分比、舵机转向百分比的数据，将这些数据存放到bag包当中，利用FTP协议将bag文件传输到服务器上，可供用户实时下载。</p>
+<p><img alt="" src="..\assets\data_record.jpg" /></p>
+<h3 id="49">4.9 数据分析<a class="headerlink" href="#49" title="Permanent link">&para;</a></h3>
+<p>数据分析功能是用户可以从服务器上下载相应的bag文件，然后分析功能可以根据bag包中的字段进行具体的分析，并通过matplotlib绘制相应的图像。</p>
+<p><img alt="data_analysis" src="..\assets\data_analysis.jpg" /></p>
+<h3 id="410">4.10 系统设置<a class="headerlink" href="#410" title="Permanent link">&para;</a></h3>
+<h4 id="4101">4.10.1 网络设置<a class="headerlink" href="#4101" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网络设置功能用于配置监控软件和航控系统控制器、船舶模型的IP地址和端口号。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;设置好正确的IP地址和端口号后，点击保存按钮后，即可将设置好的IP地址和端口号保存到系统中，下次运行监控软件后将使用该配置连接航控系统和船舶模型，以保持监控软件和智能体之间的通讯正常。</p>
+<p><img alt="image-20240612164614942" src="..\image_file\image-20240612164614942.png" /></p>
+<h4 id="4102">4.10.2 传感器设置<a class="headerlink" href="#4102" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;监控软件中包括虚拟相机、虚拟激光雷达、虚拟IMU、虚拟GPS和虚拟深度相机5种虚拟传感器，可以满足大多数用户的不同需求。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统支持开启和关闭5种传感器的功能，并设置传感器数据的采样频率；当开启虚拟传感器后，系统将通过ROS方式将虚拟传感器数据以设置的采样频率发送出去，用户只需要订阅对应传感器的Topic即可收到对应的虚拟传感器数据。</p>
+<p><img alt="image-20240612165928489.png" src="..\image_file\image-20240612165928489.png" /></p>
+<h4 id="4103">4.10.3 智能体设置<a class="headerlink" href="#4103" title="Permanent link">&para;</a></h4>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;智能体设置中可以设置轨迹的最大显示时间，超过最大显示时间的轨迹点将会自动销毁。为保证系统性能，最大轨迹显示时间设置不要过大，否则，会影响系统渲染性能。</p>
+<p><img alt="image-20240612170945439" src="..\image_file\image-20240612170945439.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.13a4f30d.min.js"></script>
+      
+    
+  </body>
+</html>
